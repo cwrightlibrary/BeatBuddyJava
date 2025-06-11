@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch BeatBuddy",
+            "request": "launch",
+            "mainClass": "com.beatbuddy.BeatBuddyApp",
+            "projectName": "BeatBuddyJava",
+            "vmArgs": "--module-path ${workspaceFolder}/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
